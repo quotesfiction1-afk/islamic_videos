@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".m4v", ".avi", ".mkv", ".webm"}
 UR_PATTERN = re.compile(r"^ur-(\d{6})$", re.IGNORECASE)
-BASE_URL = "https://github.com/quotesfiction1-afk/islamic_videos"
+BASE_URL = "https://raw.githubusercontent.com/quotesfiction1-afk/islamic_videos/main"
 CATEGORY = "Reminder"
 
 
